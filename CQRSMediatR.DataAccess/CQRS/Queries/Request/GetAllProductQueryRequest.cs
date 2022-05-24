@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CQRSMediatR.DataAccess.CQRS.Queries.Request
 {
-    public class GetAllProductQueryRequest : IRequest<GetAllProductQueryResponse>
+    public class GetAllProductQueryRequest : IRequest<List<GetAllProductQueryResponse>>
     {
     }
 }
